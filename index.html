@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romano's | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+  <aside class="menu white-bg">
+    <div class="menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">Romano's Portfólio</a></h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">apresentação</a></li>
+          <li><a href="#projects">meus projetos</a></li>
+          <li><a href="#redes">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <section id="home" class="home black-bg section">
+    <div class="main-content home-content">
+      <div class="home-content-text">
+        <h1>Quem sou eu?</h1>
+        <p>Olá recruiter, seja muito bem-vindo ao meu portfólio, me chamo Caio, estudo Ciências Econômicas pela UFRRJ
+          desde 2022, mas me apaixonei pela programação estudando pela Udemy em 2023, desde então estudo arduamente
+          todos os meus dias programação, e me apaixono cada dia mais por esse mundo.</p>
+      </div>
+      <div class="home-content-frameworks">
+        <h2>Minhas linguagens e frameworks:</h2>
+
+        <div class="home-imgs">
+          <img src="imgs/python-seeklogo.com.svg" alt="Python logo" title="Python">
+          <img src="imgs/django-seeklogo.com.svg" alt="Django framework logo" title="Django">
+          <img src="imgs/selenium-seeklogo.com.svg" alt="Selenium framework logo" title="Selenium">
+          <img src="imgs/html-5-svgrepo-com.svg" alt="HTML 5 logo" title="HTML 5">
+          <img src="imgs/css-3-svgrepo-com.svg" alt="CSS 3 logo" title="CSS 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content intro-content">
+      <h2>Um desenvolvedor em desenvolvimento</h2>
+      <p>Desde meu primeiro contato com programação, utilizando <span>Python</span>, me apaixonei pela área, desde
+        então não pude
+        mais parar de ler, pesquisar e me aprofundar na área, criando interesse por outras linguagens como
+        <span>C#</span> e <span>Java</span>,
+        meu sonho atualmente é me tornar um profissional de <span>Backend</span>, e um dia relacionar meus
+        conhecimentos de
+        programação com meus conhecimentos de economia para um projeto pessoal grande e ambicioso.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="black-bg section">
+    <div class="main-content projects-content">
+      <h2 class="projects-main-heading">Meus melhores projetos:</h2>
+
+      <p class="projects-description">Aqui você pode conferir meus 3 melhores projetos, sempre atualizados e
+        selecionados!</p>
+
+      <div class="projects-grid">
+        <article>
+          <h3>Meu Portfólio</h3>
+          <a href="#"><img src="imgs/undraw_portfolio_re_qwm5.svg" alt="Portfolio website"></a>
+        </article>
+        <article>
+          <h3>Meu Portfólio</h3>
+          <a href="#"><img src="imgs/undraw_portfolio_re_qwm5.svg" alt="Portfolio website"></a>
+        </article>
+        <article>
+          <h3>Meu Portfólio</h3>
+          <a href="#"><img src="imgs/undraw_portfolio_re_qwm5.svg" alt="Portfolio website"></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="redes" class="white-bg section">
+    <div class="main-content contact-content">
+      <h2 class="contact-heading">Minhas redes e contato:</h2>
+
+      <div class="contact-grid">
+        <a href="https://github.com/Romano-g" target="_blank" rel="nofollow"><img src="imgs/github-mark-white.svg"
+            alt="github logo">
+        </a>
+
+        <a href="https://www.linkedin.com/in/caio-romano/" target="_blank" rel="nofollow"><img
+            src="imgs/linkedin-svgrepo-com.svg" alt="linkedin logo">
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=5519995503855" target="_blank" rel="nofollow"><img
+            src="imgs/whatsapp.svg" alt="whatsapp logo">
+        </a>
+
+        <a href="https://is.gd/1aHnXv" target="_blank" rel="nofollow"><img src="imgs/gmail-icon-logo-svgrepo-com.svg"
+            alt="gmail logo">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <a class="back-to-top" href="#home"><img src="imgs/arrow-up.svg" alt="arrow for going upward"></a>
+</body>
+
+</html>
