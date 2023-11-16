@@ -341,6 +341,10 @@ a {
     padding-bottom: 10rem;
   }
 
+  .intro-content h2 {
+    word-wrap: break-word;
+  }
+
   .projects-content {
     display: block;
     padding-top: 10rem;
