@@ -20,7 +20,9 @@ a {
 }
 
 .black-bg {
-  background-color: black;
+  background-image: url(imgs/13403524_5238994.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .white-bg {
