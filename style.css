@@ -215,8 +215,8 @@ a {
 }
 
 .projects-grid img {
-  max-height: 36rem;
-  max-width: 36rem;
+  height: 36rem;
+  width: 36rem;
   background: white;
   padding: 2rem;
   border-radius: 10px;
@@ -265,7 +265,7 @@ a {
   display: none;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1080px) {
   .back-to-top {
     position: fixed;
     bottom: 2rem;
@@ -361,7 +361,7 @@ a {
   }
 
   .projects-content img {
-    max-width: 100%;
+    width: 100%;
   }
 
   .contact-content {
