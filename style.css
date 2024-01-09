@@ -19,6 +19,18 @@ a {
   text-decoration: none;
 }
 
+legend {
+  display: flex;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.3rem;
+  border-radius: 7px;
+}
+
 .black-bg {
   background-image: url('imgs/19642783_6162372.svg');
   background-position: center;
@@ -198,7 +210,7 @@ a {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 .projects-grid {
@@ -211,6 +223,13 @@ a {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.projects-grid p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
   margin-bottom: 5rem;
 }
 
@@ -219,7 +238,7 @@ a {
   width: 34rem;
   background: white;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 3rem;
   box-shadow: 0 0 1rem 0.2rem white;
   transition: all 400ms ease-in-out;
 }
