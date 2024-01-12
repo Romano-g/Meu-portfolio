@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+
 legend {
   display: flex;
   margin-top: 1rem;
@@ -72,7 +77,8 @@ legend {
   display: flex;
 }
 
-.menu ul li a {
+.menu ul li a,
+.menu ul li button {
   display: block;
   padding: 2rem 3rem;
   font-size: 2rem;
@@ -83,7 +89,8 @@ legend {
   color: black;
 }
 
-.menu ul li a::after {
+.menu ul li a::after,
+.menu ul li button::after {
   content: '';
   position: absolute;
   bottom: 1.2rem;
@@ -94,7 +101,8 @@ legend {
   transition: all 400ms ease-in-out;
 }
 
-.menu ul li a:hover::after {
+.menu ul li a:hover::after,
+.menu ul li button:hover ::after {
   width: 50%;
   left: 25%;
 }
