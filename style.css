@@ -225,6 +225,7 @@ legend {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
+  align-items: end;
 }
 
 .projects-grid h3 {
