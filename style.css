@@ -146,6 +146,10 @@ legend {
   font-size: 2rem;
 }
 
+.home-content-text span {
+  color: aqua;
+}
+
 .home-content-frameworks h2 {
   color: white;
   font-size: 6rem;
@@ -254,6 +258,10 @@ legend {
 
 .projects-grid img:hover {
   transform: scale(1.1);
+}
+
+.projects-grid span {
+  color: aqua;
 }
 
 .contact-content {
